@@ -1,8 +1,24 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
 html {
   display: "flex";
   flex-direction: "column";
+  font-family: sans-serif;
+  font-size: 19px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+h3 {
+  font-weight: 400;
+  color: rgb(53, 53, 53);
 }

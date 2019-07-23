@@ -1,13 +1,14 @@
 import * as React from "react";
 import { render } from "react-dom";
-import { View } from "./StandardComponents/View/View";
+import { BrowserRouter as Router } from "react-router-dom";
+import { AppLayout } from "./StandardComponents/AppLayout/AppLayout";
 import "./global.css";
 
 function App() {
   return (
-    <View>
-      <View>hellow world</View>
-    </View>
+    <Router>
+      <AppLayout />
+    </Router>
   );
 }
 
