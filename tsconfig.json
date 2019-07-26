@@ -9,6 +9,7 @@
         ],
         "jsx": "react",
         "strict": false,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "experimentalDecorators": true
     }
 }

@@ -1,6 +1,7 @@
-html {
-  display: "flex";
-  flex-direction: "column";
+html,
+div {
+  display: inline-flex;
+  flex-direction: column;
   font-family: sans-serif;
   font-size: 19px;
 }
